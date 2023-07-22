@@ -9,6 +9,7 @@ services:
     volumes:
       - ./my-project/public:/var/www/html/public:ro
       - ./my-project/themes:/var/www/html/themes:ro
+      - ./my-project/vendor:/var/www/html/vendor:ro
       - ./config/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
 
   web:

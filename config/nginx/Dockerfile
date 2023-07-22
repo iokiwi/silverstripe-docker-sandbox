@@ -1,4 +1,4 @@
-from nginx:latest
+FROM nginx:latest
 
 ARG USER_ID=1000
 ARG GROUP_ID=1000
